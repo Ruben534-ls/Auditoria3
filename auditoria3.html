@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruben Lague - Auditoría Gubernamental y Gestión Pública</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #e0e0e0;
+        }
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #1c1c1c;
+            padding: 2rem;
+            text-align: center;
+        }
+        header img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            color: #f0f0f0;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background: #333;
+            padding: 1rem;
+        }
+        nav a {
+            color: #f0f0f0;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        nav a:hover {
+            background: #555;
+            transition: background 0.3s ease;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #1f1f1f;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        h2 {
+            color: #f0f0f0;
+            border-bottom: 2px solid #f0f0f0;
+            padding-bottom: 10px;
+            margin-top: 40px;
+            font-size: 2rem;
+        }
+        .content {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .content img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+        .content p {
+            margin-bottom: 1.5rem;
+            flex: 1;
+        }
+        footer {
+            background: #333;
+            color: #f0f0f0;
+            text-align: center;
+            padding: 1rem;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .hero {
+            background: url('https://example.com/hero-image.jpg') no-repeat center center/cover;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: #f0f0f0;
+        }
+        .hero h2 {
+            font-size: 3rem;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
+        .service-item, .project-item {
+            background: #2c2c2c;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+        .service-item:hover, .project-item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="13062050_1295658383797362_3376718284482496151_n.jpg" alt="Ruben Lague">
+        <h1>Ruben Lague Saravia</h1>
+        <p>Director Administrativo Financiero de Laboratorio SPECTROLAB, de la Universidad Técnica de Oruro</p>
+    </header>
+
+    <nav>
+        <a href="#sobre-mi">Sobre Mí</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <div class="hero">
+        <h2>Expertos en Auditoría Gubernamental y Gestión Pública</h2>
+    </div>
+
+    <div class="container">
+        <section id="sobre-mi">
+            <h2>Sobre Mí</h2>
+            <div class="content">
+                <p>Soy Ruben Lague Saravia, Auditor Financiero especializado en auditoría gubernamental y gestión pública. Tengo una maestría en Administración de Empresas y Gestión Pública por la Universidad Siglo XX y una amplia experiencia en diversos roles dentro del sector público y privado. Actualmente, soy el Director Administrativo Financiero de Laboratorio SPECTROLAB, de la Universidad Técnica de Oruro.</p>
+            </div>
+        </section>
+
+        <section id="servicios">
+            <h2>Servicios</h2>
+            <div class="content">
+                <div class="service-item">
+                    <h3>Auditoría Gubernamental</h3>
+                    <p>Especializado en la auditoría de organismos públicos, garantizando transparencia y cumplimiento normativo.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Gestión Pública</h3>
+                    <p>Asesoramiento y gestión integral en procesos públicos, mejorando la eficiencia y efectividad en la administración.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Consultoría en Procesos de Auditoría</h3>
+                    <p>Ofrecemos consultoría especializada para optimizar los procesos de auditoría y control interno.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Asesoramiento en Normativa Contable</h3>
+                    <p>Asesoramos en el cumplimiento de la normativa contable y tributaria vigente.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Capacitación en Auditoría y Finanzas</h3>
+                    <p>Capacitaciones diseñadas para fortalecer las habilidades en auditoría y gestión financiera.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="proyectos">
+            <h2>Proyectos</h2>
+            <div class="content">
+                <div class="project-item">
+                    <h3>Auditoría Interna en el Servicio Departamental de Gestión Social</h3>
+                    <p>Realización de auditorías internas para garantizar el correcto uso de los recursos públicos en la Prefectura de Oruro.</p>
+                </div>
+                <div class="project-item">
+                    <h3>Consultor de Línea en la Contraloría General del Estado</h3>
+                    <p>Consultoría especializada en auditorías para la Gerencia Departamental de Oruro.</p>
+                </div>
+                <div class="project-item">
+                    <h3>Jefe de Auditoría Interna en la Empresa Metalúrgica Vinto</h3>
+                    <p>Encargado de liderar procesos de auditoría interna para asegurar la transparencia y eficacia de la empresa.</p>
+                </div>
+                <div class="project-item">
+                    <h3>Gerente Administrativo Financiero en la Empresa Metalúrgica Vinto</h3>
+                    <p>Gestión y supervisión de las operaciones financieras de la empresa, asegurando su viabilidad económica.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <div class="content">
+                <p>Puedes contactarme a través de los siguientes medios:</p>
+                <p>Dirección: Prolongación Charcas #163, Barrio Minero San Jose, Oruro, Bolivia</p>
+                <p>Teléfono: 5211183</p>
+                <p>Celular: 72353013</p>
+                <p>Correo Electrónico: <a href="mailto:lague.ruben@gmail.com">lague.ruben@gmail.com</a></p>
+                <img src="https://example.com/contact-image.jpg" alt="Imagen de contacto">
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Ruben Lague Saravia</p>
+    </footer>
+</body>
+</html>
